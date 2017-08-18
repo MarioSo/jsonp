@@ -1,14 +1,14 @@
 {
-  "name": "jsonp",
-  "version": "0.1.0",
-  "description": "a dead simple jsonp implementation",
-  "main": "index.js",
+  "name": "@marioso/jsonp",
+  "version": "0.0.1",
+  "description": "a minimal es6 jsonp implementation to fetch data",
+  "main": "src/index.js",
   "scripts": {
     "start": "webpack -w --config tools/webpack/webpack.config.js",
     "lint": "eslint --ext=js --ext=jsx ."
   },
   "keywords": [
-    "jsonp"
+    "jsonp", "es6"
   ],
   "author": "Mario Sommer <hello@mariosommer.at> (http://mariosommer.at)",
   "license": "ISC",

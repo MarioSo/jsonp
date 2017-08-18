@@ -1,0 +1,6 @@
+**/node_modules/*
+**/build/*
+**/static/*
+**/class/vendor/**
+./index.js
+webpack.config.js

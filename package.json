@@ -1,0 +1,29 @@
+{
+  "name": "jsonp",
+  "version": "0.1.0",
+  "description": "a dead simple jsonp implementation",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -w --config tools/webpack/webpack.config.js",
+    "lint": "eslint --ext=js --ext=jsx ."
+  },
+  "keywords": [
+    "jsonp"
+  ],
+  "author": "Mario Sommer <hello@mariosommer.at> (http://mariosommer.at)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.2.1",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.5.5"
+  }
+}
